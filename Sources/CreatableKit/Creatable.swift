@@ -7,6 +7,8 @@
 
 import Foundation
 
+extension NSObject: Creatable {}
+
 public protocol Creatable: AnyObject {
     init()
 }
